@@ -6,7 +6,7 @@ A set of utility scripts for Raspbmc RC4.
 Introduction
 ------------
 
-A set of personal utility scripts for a Raspberry Pi running Raspbmc RC4. These files are related to a blog post about configuring a Raspberry Pi, located [here](http://www.ceva24.co.uk/the-pi-and-i/).
+A set of personal utility scripts for a Raspberry Pi running Raspbmc RC4. This repo is related to a blog post about configuring a Raspberry Pi, located [here](http://www.ceva24.co.uk/the-pi-and-i/).
 
 These files are stored for posterity, as in reality the later releases of Raspbmc probably handle this functionality automatically :-)
 
