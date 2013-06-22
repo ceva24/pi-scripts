@@ -1,0 +1,15 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides: shutdownpi
+# Required-Start:
+# Required-Stop:
+# Default-Start:
+# Default-Stop:
+# Short-Description: Shut down cleanly.
+# Description:       Shut down cleanly.
+### END INIT INFO
+
+sudo /etc/init.d/samba stop
+sudo initctl stop xbmc
+sudo poweroff
+exit 0

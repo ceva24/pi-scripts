@@ -1,0 +1,14 @@
+#! /bin/sh
+# /etc/init.d/mountdrive
+### BEGIN INIT INFO
+# Provides: mountdrive
+# Required-Start:
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Mount USB1 at boot time.
+# Description:       Mount USB1.
+### END INIT INFO
+
+sudo nohup /etc/init.d/mountdriveimpl &
+exit 0

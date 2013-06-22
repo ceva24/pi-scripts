@@ -1,0 +1,15 @@
+#! /bin/sh
+# /etc/init.d/mountdriveimpl
+### BEGIN INIT INFO
+# Provides: mountdriveimpl
+# Required-Start:
+# Required-Stop:
+# Default-Start:
+# Default-Stop:
+# Short-Description: Mount USB1 at boot time.
+# Description:       Mount USB1.
+### END INIT INFO
+
+sleep 120
+sudo mount -o uid=pi,gid=pi /dev/sda1 /media/usb
+exit 0
