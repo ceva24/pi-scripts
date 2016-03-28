@@ -1,4 +1,4 @@
-pi-scripts
+Raspberry Pi Utility Scripts
 =============
 
 A set of utility scripts for Raspbmc RC4.
