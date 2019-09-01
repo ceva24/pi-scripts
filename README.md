@@ -19,7 +19,7 @@ Features:
 Install
 -------
 
-1. Place the scripts onto your Pi at the directories indicated by the structure of the repository. Remember to perform Windows-Unix EOL conversion
+1. Place the scripts onto your Pi at the directories indicated by the structure of the repository.
 2. `chmod` relevant scripts with appropriate executable permissions.
 3. Add the `mountdrive` script to the boot procedure with `sudo update-rc.d /etc/init.d/mountdrive defaults`.
 
